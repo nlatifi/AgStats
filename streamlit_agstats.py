@@ -16,8 +16,8 @@ import io
 num_retries = 5
 
 #API stuff
-openai.api_key = open("/Users/jackogozaly/Desktop/Python_Directory/key.txt", "r").read().strip("\n")
-quickstats_api_key = open("/Users/jackogozaly/Desktop/Python_Directory/nass_key.txt", "r").read().strip("\n")
+openai.api_key = st.secrets["openai_key"]
+quickstats_api_key = st.secrets["nass_key"]
 
 #Introduction text
 introduction_text = "Hello! I'm AgStats, a large language model trained to query the NASS Quickstats API. I can help you find agricultural data on a variety of subjects. How can I assist you today?"
