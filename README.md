@@ -11,4 +11,4 @@ https://agstats.streamlit.app/
 
 Below is a gif showing AgStats in action.
 
-![grab-landing-page](https://github.com/JackOgozaly/AgStats/blob/main/Examples/agstats_demo_091723.gif?raw=true)
+![grab-landing-page](https://github.com/JackOgozaly/AgStats/blob/main/Examples/agstats_best_demo.gif?raw=true)
